@@ -1,3 +1,4 @@
+# Define a solver class
 class Solver
   def factorial(number)
     raise ArgumentError, 'Error: this method only accepts 0 and positive integers.' if number.negative?
