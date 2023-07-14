@@ -21,4 +21,30 @@ RSpec.describe Solver do
       expect(result).to eq('olleH')
     end
   end
+
+  describe '#fizzbuzz' do
+    it 'returns "Fizz" for multiples of 3' do
+      solver = Solver.new
+      result = solver.fizzbuzz(9)
+      expect(result).to eq('Fizz')
+    end
+
+    it 'returns "Buzz" for multiples of 5' do
+      solver = Solver.new
+      result = solver.fizzbuzz(10)
+      expect(result).to eq('Buzz')
+    end
+
+    it 'returns "FizzBuzz" for multiples of both 3 and 5' do
+      solver = Solver.new
+      result = solver.fizzbuzz(15)
+      expect(result).to eq('FizzBuzz')
+    end
+
+    it 'returns the number for non-multiples of 3 or 5' do
+      solver = Solver.new
+      result = solver.fizzbuzz(7)
+      expect(result).to eq(7)
+    end
+  end
 end
