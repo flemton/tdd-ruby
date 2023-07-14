@@ -85,7 +85,13 @@ Open the project on your code editor
 
 - GitHub: [@flemton](https://github.com/flemton)
 - Linkedin: [@anewtongh](https://linkedin.com/in/newtongh)
-- Twitter: [@oalhassan847](https://twitter.com/oalhassan847)
+- Twitter: [@oalhassan847](https://twitter.com/oalhassan847
+
+👤 **Abiola Arobieke**
+
+- GitHub: [@abiola-arobieke](https://github.com/abiola-arobieke)
+- Linkedin: [@abiola-arobieke](https://linkedin.com/in/abiola-arobieke)
+- Twitter: [@abiola_arobieke](https://twitter.com/abiola_arobieke)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
