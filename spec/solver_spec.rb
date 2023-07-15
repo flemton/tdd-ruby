@@ -1,4 +1,4 @@
-require 'solver'
+require './solver'
 
 RSpec.describe Solver do
   describe '#factorial' do
