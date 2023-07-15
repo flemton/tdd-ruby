@@ -8,4 +8,12 @@ RSpec.describe Solver do
       expect(result).to eq(120)
     end
   end
+
+  describe '#reverse' do
+    it 'returns the reverse of a string' do
+      solver = Solver.new
+      result = solver.reverse('Hello')
+      expect(result).to eq('olleH')
+    end
+  end
 end
