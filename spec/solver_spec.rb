@@ -12,6 +12,10 @@ RSpec.describe Solver do
       result = solver.factorial(0)
       expect(result).to eq(1)
     end
+    it 'raises an exception if a negative number is given' do
+      solver = Solver.new
+      expect {solver.factorial(-4)}.to raise_error(ArgumentError)
+    end
   end
 
   describe '#reverse' do
