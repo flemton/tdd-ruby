@@ -14,7 +14,7 @@ RSpec.describe Solver do
     end
     it 'raises an exception if a negative number is given' do
       solver = Solver.new
-      expect {solver.factorial(-4)}.to raise_error(ArgumentError)
+      expect { solver.factorial(-4) }.to raise_error(ArgumentError)
     end
   end
 
