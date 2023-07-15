@@ -1,5 +1,7 @@
 class Solver
   def factorial(number)
+    raise ArgumentError, 'Error: this method only accepts 0 and positive integers.' if number.negative?
+
     (1..number).reduce(:*) || 1
   end
 
