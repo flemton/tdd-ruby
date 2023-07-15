@@ -21,4 +21,12 @@ RSpec.describe Solver do
       expect(result).to eq('olleH')
     end
   end
+
+  describe '#fizzbuzz' do
+    it 'returns "Fizz" for multiples of 3' do
+      solver = Solver.new
+      result = solver.fizzbuzz(9)
+      expect(result).to eq('Fizz')
+    end
+  end
 end
