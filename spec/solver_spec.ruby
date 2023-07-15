@@ -28,5 +28,11 @@ RSpec.describe Solver do
       result = solver.fizzbuzz(9)
       expect(result).to eq('Fizz')
     end
+
+    it 'returns "Buzz" for multiples of 5' do
+      solver = Solver.new
+      result = solver.fizzbuzz(10)
+      expect(result).to eq('Buzz')
+    end
   end
 end
